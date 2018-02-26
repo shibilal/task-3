@@ -1,0 +1,161 @@
+.flex-container{
+	display: flex;
+	background-color: #f5f3f3;
+	align-content: stretch;
+}
+.flex-container>div {
+  background-color: #f1f1f1;
+  
+  width: 100px;
+  margin: 4px;
+  text-align: center;
+
+  
+}
+.namebox{
+	
+	text-align: center;
+
+	height: 350px;
+	margin-top: 48px;
+	margin-left: 10px;
+}
+.shibilal{font-family: '"Comic Sans MS", sans-serif';font-size: 40px; color: white;}
+.addre{font-family: '"Comic Sans MS", sans-serif';font-size: 18px; color: white;}
+
+.resume-heading{
+
+		text-align: center;
+		margin-top: 30px;
+		font-family: '"Comic Sans MS", sans-serif';font-size: 36px;
+
+	}
+	.left-backcolor{
+		background-color:#008080;
+		width: 100%;
+		height: 600px;
+	}
+	.photoalign{
+		padding: 20px;
+
+	}
+
+img {
+  border-radius: 50%;
+}
+
+
+	.boxes{
+		
+		background-color: lightgrey;
+		margin-top: 80px;
+		margin-left: 12px;
+		margin-right: 10px;
+		padding: 4px;
+		font-family: '"Comic Sans MS", sans-serif';font-size: 14px;
+	}
+	.inside-box-head{
+		background-color: lightgrey;
+		color: #008080;
+		padding: 6PX;
+		font-family: '"Comic Sans MS", sans-serif';font-size: 16px;
+
+	}
+
+
+
+/*	@media (max-width: 414px) {
+		.photoalign {
+				padding: 0px;
+				
+		}
+		.shibilal{
+			font-size: 16px;
+			text-align: left;
+		}
+		.addre{
+			font-size: 7px;
+			text-align: left;
+		}
+		.resume-heading{
+			margin-left: 11px;
+			font-size: 17px;
+
+		}
+		.boxes{
+			font-size: 10px;
+		}
+		.inside-box-head{
+			font-size: 12px;
+		}
+	}
+	@media (max-width: 375px){
+		.shibilal{
+			font-size: 13px;
+		}
+	}
+	@media (max-width: 320px){
+		.addre{
+			font-size: 6px;
+		}
+		.boxes{
+			font-size: 9px;
+		}
+		.inside-box-head{
+			font-size: 11px;
+		}
+	}
+	@media (max-width: 384px){
+		.shibilal{
+			font-size: 12px;
+		}
+	}
+	@media (max-width: 412px){
+		.shibilal{
+			font-size: 12px;
+		}
+	}
+	@media (max-width: 320px){
+		.boxes{
+			font-size: 8px;
+		}
+	}
+	@media (max-width: 542px){
+		.shibilal{
+			font-size: 15px;
+
+		}
+		.addre{
+			font-size: 8px;
+		}
+	}
+	@media (max-width: 464px){
+		.boxes{
+			font-size: 9px;
+
+		}
+		.addre{
+			font-size: 7px;
+		}
+	}
+	@media (max-width: 352px){
+		.shibilal{
+			font-size: 14px;
+		}
+	}
+	@media (max-width: 336px){
+		.addre{
+			font-size: 6px;
+		}
+		.shibilal{
+			font-size: 13px;
+		}
+	}
+	@media (max-width: 280px){
+		.addre{
+			font-size: 5px;
+		}
+		.shibilal{
+			font-size: 12px;
+		}
+	}
